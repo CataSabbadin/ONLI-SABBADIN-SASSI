@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagenes/LOGO-ONLI.ico" type="image/x-icon">
+    <title>Contacto</title>
+</head>
+<body>
+
+    <!-<!--Menú navegable-->
+    <section class="section1">
+      <header class="header-container">
+        <nav class="header-navegable">
+            <ul class="menu-navegable">
+                <li>
+                    <a href="index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="catalogo.html">Catálogo</a>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="ingresar.html">Ingresar</a>
+                </li>
+            </ul>
+            </nav>
+        </header>
+     </section>
+         <section class="logo-texto">
+             <center> <img width="250" height="250" src="Imagenes/LOGO ONLI (1).png" alt="logo" class="logo">
+                 <h1>Tienda de garaje online</h1>
+             </center>
+         </section>
+     <br><br><br><br>
+<!--Contenido principal de la pagina(main)-->
+
+<main>
+<div class="contact_form">
+
+    <div class="formulario">      
+      <h2>Formulario de contacto</h2>
+      <br><br><br>
+        <h3>Dejanos tu consulta y en breve nos pondremos en contacto</h3>
+        
+        <br><br>
+
+          <form action="submeter-formulario.php" method="post">       
+            <br>
+            
+                <p>
+                  <label for="Nombre" class="colocar_nombre">Nombre
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                </p>
+              <br>
+                <p>
+                  <label for="email" class="colocar_email">Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                </p>
+                <br>
+                <p>
+                  <label for="telefone" class="colocar_telefono">Teléfono
+                  </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>    
+                <br>                   
+                <p>
+                  <label for="asunto" class="colocar_asunto">Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                </p>    
+                <br>
+                <p>
+                  <label for="mensaje" class="colocar_mensaje">Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>                     
+                                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                </p>                    
+                <br>
+                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                <p class="aviso">
+                  <br>
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>          
+                <br>
+          </form>
+    </div>  
+</div>  
+</main>
+
+<br><br><br><br>
+<!--Pie de pagina (footer)-->
+
+<footer>
+<!--Redes-->
+<h4>Seguinos en nuestras redes</h4>
+<br>
+<a href="https://www.instagram.com/locas_como_tu_madre/" target="_blank"><img width="30" height="30" src="Imagenes/INSTAGRAM.png" alt=""></a>
+<a href="https://m.facebook.com/locas.comotumadre.5?tsid=0.8426338859263407&source=result
+" target="_blank"><img width="30" height="30" src="Imagenes/FACE.png" alt=""></a>
+<a href="https://www.youtube.com/watch?v=FOkqLvCzOE8" target="_blank"><img width="30" height="30" src="Imagenes/YOUTUBE.png" alt=""></a>
+
+
+</footer>
+
+</body>
